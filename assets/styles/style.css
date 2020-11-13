@@ -1,0 +1,26 @@
+#container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  width: 50%;
+}
+
+#movieSearch {
+  width: 80%;
+}
+
+#searchButton {
+  background-color: aliceblue;
+  border: solid 1px rgb(123, 197, 240);
+  color: rgb(60, 124, 175);
+  border-radius: 5px;
+}
+
+.hide {
+  display: none;
+}
